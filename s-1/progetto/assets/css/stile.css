@@ -1,0 +1,212 @@
+/* IMPOSTAZIONI GENERALI */
+html {font-size: 62.5%;}
+
+body {
+    color: #393d41;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65em;
+    font-size: 1.2rem
+}
+  
+h3, h4, h5, h6 {
+    font-size: 25px;
+    color: #25a2c3;
+    font-weight: bold;
+    padding: 30px;
+    
+}
+#logo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+main {
+    margin-top: 145px;
+}
+
+#iconToTop{
+    display: block;
+    background-color: rgba(222, 225, 227, 0.8);
+    color: #393d41;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;  
+    padding: 4px;
+    border-radius: 18px;
+    position: fixed;
+    right: 50px;
+    bottom: 5vh;
+}
+#iconToTop:active {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;  
+    padding: 4px;
+    border-radius: 18px;
+}
+
+/* HEADER */
+header figure {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+/* MAIN */
+main article .corsoWeb h1 {
+    color:#25a2c3;
+    font-size: 35px;
+    line-height: 1.1em;
+    word-wrap: break-word;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    margin: 0px;
+}
+main article .corsoWeb input[type="submit"] {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+
+}
+main article .corsoWeb p {
+    word-wrap: break-word;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: -5px;
+}
+main article section .sottotitoli{
+    color: #25a2c3;
+    font-size: 25px;
+    padding: 20px;
+    margin-top:20px ;
+    word-break: break-all;
+}
+main article section p{
+    color: black;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+main article section div:last-child {
+    padding-bottom: 50px;
+}
+
+main .sfondoRosso {
+    background-color: #f04c2f;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+}
+main .sfondoRosso h2 {
+    font-weight: lighter;
+    font-weight: bold; 
+    font-size: xx-large;
+    padding-bottom: 40px;
+}
+main .sfondoRosso blockquote {
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main .sfondoRosso figcaption {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+main .sfondoRosso p {
+    color: white;
+    font-size: 15px;
+}
+
+main input[type=submit] {
+    padding-left: 30px;
+    border: 0px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f04c2f;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 5px;
+}
+main .corsoWeb {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: #dee1e3;
+}
+main figure img {
+    margin-top: 25px;
+    border-radius: 100%;
+    width: 55%;
+}
+/* ASIDE */
+
+aside section {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+aside section .art-1 p {
+    color: black;
+}
+aside section .art-1 {
+    margin: 30px;
+    border: 1px solid rgb(222, 230, 238);
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+aside section .art-1 div h3{
+    padding: 10px;
+    color: #25a2c3;
+    font-weight: bold;
+    font-size: 20px;
+}
+aside section .art-1 div p {
+    font-size: 18px;
+    padding: 40px;
+    word-wrap: break-word;
+    
+}
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+}
+footer a, address, div {
+    color: white
+}
+footer header{
+   padding-top: 80px;
+}
+footer header h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+footer header ul li {
+    font-size: 20px;
+    padding: 10px;
+}
+footer header address {
+    display: inline-block;
+}
+footer div {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-top: 1px solid white;
+    margin-left: 120px;
+    margin-right: 120px;
+}
