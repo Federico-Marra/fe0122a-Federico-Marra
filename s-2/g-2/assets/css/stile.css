@@ -349,3 +349,14 @@ footer a {
         font-size: 1.5rem;
     }
 }
+@media print {
+    header, aside, footer, .toTop, .social, iframe, main section{ 
+        display: none;
+    }
+    main {
+        font-size: 2.3rem;
+        line-height: 1.6em;
+        box-shadow: none;
+    }
+     
+}
