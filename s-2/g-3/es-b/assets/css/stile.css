@@ -331,4 +331,24 @@ footer a {
         display: none;
     }
 }
+@media screen and (min-width:1200px){
+    .mainGrid{
+        display: grid;
+        margin-bottom: 0;
+        grid-template-columns: 60% 40% ;
+        grid-template-rows: 70% auto 30%;
+    }
+        .newsletterGrid{
+            margin-left:1.5em;
+        }
+            .artGrid{
+                margin-top: 1em;
+                margin-bottom: 5em;
+            }
+            .news{
+                position: sticky;
+                top: 20vh;
+                font-size: 25px;
+            }
+}
 
