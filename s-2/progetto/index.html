@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="">
-  <title></title>  
+  <title>Home Page</title>  
   <link rel="stylesheet" href="assets/css/all.css">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/stile.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans&display=swap" rel="stylesheet">
-CSS rules t
+
 </head>
 
 <body>
@@ -20,6 +20,8 @@ CSS rules t
       <div id="logo">
         <img src="/assets/images/logo.png" alt="Logo Epicode!">
       </div>
+      <label for="menuMobile" class="iconMenu"><i class="fas fa-ellipsis-h"></i></label>
+      <input type="checkbox" id="menuMobile" name="menuMobile"  class="btnMenu" hidden>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -37,7 +39,7 @@ CSS rules t
         <div class="txt-banner">
           <h1>Diventa un developer EPICO</h1>
           <p>Diventa un developer EPICO e ti troviamo noi il lavoro. Scommettiamo su di te: paghi metà corso, l'altra metà solo quando inizi a lavorare.</p>
-          <a href="contatti.html" class="btn"> Chiedi info</a>
+          <a href="contatti.html" class="btn btn-animation"> Chiedi info</a>
         </di>
     
     </section>
@@ -103,8 +105,7 @@ CSS rules t
   </main>
 
   <footer>
-    <section>
-      <div class="containerFlex3">
+    <section class="containerFlex3">
         <div class="info-ft">
           <p>Chi siamo</p>
           <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
@@ -119,10 +120,9 @@ CSS rules t
         </div>
         <div class="info-ft">          
             <p>Isciviti alla nostra newsletter</p>
-            <label for="mail" name="mail" id="mail" placeholeder="ciao"></label>
-            <p><a href="#" name="mail" id="mail" class="btn">Va bene!</a></p>
+            <input type="mailto">
+            <a href="#" class="btn"> Va bene!</a>
         </div>
-      </div>
     </section>
     <hr>
     <div class="txt-footer">
