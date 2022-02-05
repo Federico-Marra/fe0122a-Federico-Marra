@@ -15,12 +15,15 @@ a {
     html {
         font-size: 100%;
     }
-    .fa-facebook-square, .fa-linkedin, .fa-comment-dots, .fa-instagram, .fa-map-marker-alt, .fa-user-circle, .fa-meh::first-letter, .fa-grin-stars::first-letter, .fa-laugh::first-letter {
+    .fa-facebook-square,.fa-ellipsis-h, .fa-linkedin, .fa-comment-dots, .fa-instagram, .fa-map-marker-alt, .fa-user-circle, .fa-meh::first-letter, .fa-grin-stars::first-letter, .fa-laugh::first-letter {
         color: orangered;
     }
     .fa-meh, .fa-grin-stars, .fa-laugh, .fa-comment-dots, .fa-map-marker-alt, .fa-user-circle{
         background-color: white;
         font-size: 1.8em;
+    }
+    .fa-ellipsis-h {
+        font-size: 2em;
     }
     .btn{
         background: linear-gradient(90deg, rgb(117, 178, 238) 27%, rgba(25,37,82,1) 100%);
@@ -28,6 +31,9 @@ a {
         height: 15px;
         padding: 0.8em;
         color: white;
+    }
+    a {
+        color: #000;
     }
     
 
@@ -177,9 +183,6 @@ a {
             padding-right: 0.5em;
             line-height: 1.5em;
         } 
-        .info input[type=text] {
-            height: 35px ;
-        }
         .info .btn {
             display: block;
             text-align: center;
@@ -194,7 +197,48 @@ a {
             font-size: .9em;
             line-height: 1.5em;
         }
-   
+    /* MAIN | CONTATTI-PAGE */
+    main {
+        text-align: center;
+    }
+        section {
+            margin-bottom: 2.5em;
+        }
+        section h1 {
+            text-align: center;
+            padding: 1em 0 .5em;
+        }
+            .containerFlex {
+                display: flex;
+                flex-direction: column;
+            }
+                .form input[type="text"], .form input[type="mail"], .form textarea {
+                    display: inline-block;
+                    width: 85%;
+                    font-style: italic;
+                    padding: 1em;
+                    margin-bottom: 20px;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                    color: #a1a1a1;
+                }
+                .form {
+                    margin-bottom: 1em;               
+                    text-align: center;
+                }
+            .info-s-j p, .info-s-j address{
+                line-height: 2em;
+            }
+            .email-tell {
+                margin-top: 3em;
+            }
+                .email-tell a {
+                    display: block;
+                }
+            .job p{
+                font-size: 1em;
+                padding: 1em 3.5em;
+            }
 }
 @media screen and (min-width: 768px){
     /* HEADER | NAV-BAR */
@@ -252,6 +296,19 @@ a {
             text-align: left;
             padding-bottom: 1em;
         }
+    /* MAIN | CONTATTI-PAGE */
+    .containerFlex {
+        flex-direction: row;
+    }
+    .info-s-j {
+        font-size: 1.2em;
+    }
+    .job p {
+        padding-top: 1em; 
+    }
+    .email-tell{
+        margin-top: .2em;
+    }
     /* FOOTER */
     footer {
         padding: 2.5em;
@@ -265,6 +322,10 @@ a {
         }
         .testo-fr a {
             color: black;
+        }
+        .testo-fr {
+            margin-top: 2.5em;
+            margin-bottom: 4em;
         }
 }
 @media screen and (min-width: 1200px) {
@@ -319,12 +380,38 @@ a {
                 padding-bottom: .5em;
                 font-size: 1.5em;
             }
+    /* MAIN | CONTATTI-PAGE */
+        section{
+                font-size: 2em;
+        }
+            .form {
+                margin: 0 5em;
+            }
+            .form form {
+                width: 126%;
+        }
+            .form input, .form textarea{
+                border-radius: 5px;
+            }
+            .info-s-j h2{
+                padding-top: 0;
+                padding-bottom: .5em;
+            }
+            .job h2{
+                padding-top: 2em;
+                margin-bottom: 0;
+            }
+    /* FOOTER | CONTATTI-PAGE */
+    .testo-fr {
+        margin-bottom: 7em;
+    }
     /* FOOTER */
     .container-flex-fr {
         margin: 0 10em;
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
     .info {
+        font-size: 1.4em;
         margin: 2em;
         font-size: 1em;
     }
