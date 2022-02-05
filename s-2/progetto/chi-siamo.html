@@ -5,23 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="">
-  <title></title>
+  <title>Contatti | Epicode</title>  
   <link rel="stylesheet" href="assets/css/all.css">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/stile.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans&display=swap" rel="stylesheet">
-  
 </head>
 
 <body>
   <header>
-    <div id="logo">
-      <img src="/assets/images/logo.png" alt="Logo Epicode!">
-    </div>
-    <label for="menuMobile" class="iconMenu"><i class="fas fa-ellipsis-h"></i></label>
-    <input type="checkbox" id="menuMobile" name="menuMobile"  class="btnMenu" hidden>
+    <img src="/assets/images/logo.png" alt="Logo Epicode!" id="logo">
+    <label for="hamb" class="menu"><i class="fas fa-ellipsis-h"></i></label>
+    <input type="checkbox" id="hamb"  class="hamb" >
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -30,99 +27,36 @@
         <li><a href="#" class="btn">Registrati</a></li>
       </ul>
     </nav>
-</header>
+  </header>
+  <main>  
 
-
-<main>
-  <section class="main-txt">
-    <h1>We are coder</h1>
-    <p>Epicode School nasce con l'obiettibo di rivoluzionare la formazione in ambito tech.
-      Vogliamo essere il movimento dei creatori digitali che il mercato richiede: formiamo, forniamo e aggiorniamo specialisti con la missione di trasformare le aziende dall'interno e offrire ai giovani sicure prospettive di carriera. Siamo a Roma ma arriviamo in tutta Italia, per creare la community che rivoluzionerà il mondo del lavoro.
-    </p>
-  </section>
-  <section class="containerFlex container-flex"> 
-    <figure class="img imgTabl">
-      <img src="/assets/images/foto1.jpg" alt="">
-      <figcaption>Investiamo sul talento e vogliamo dimostrartelo: effettua un colloquio di selezione per accedere ad una delle 5 borse di studio disponibili.</figcaption>
-    </figure>
-
-    <figure class="img imgTabl">
-      <img src="assets/images/foto2.jpg" alt="">
-      <figcaption>Riceverai subito l'esito, quindi ti consigliamo di contattarci prima che le borse di studio si esauriscano: contattaci e candidati subito
-      </figcaption>
-    </figure>
-  </section>
-    
-  <section class="tableBox">
-
-    <div class="tableResponsive">
-      <table>
-        <caption>
-        <p><strong>Prezzi dei corsi</strong></p>
-        </caption>
-        <thead>
-        <tr>
-          <th>BASE <br>500€ + IVA</th>
-          <th>INTERMEDIO <br>1000€ + IVA</th>
-          <th>AVANZATO <br>2000€ + IVA</th>
-        </tr>
-        </thead>
-  
-        <tbody>
-        <tr>
-          <td>30 ore di <br>formazione</td>
-          <td>Tutte le caratteristiche del <br>corso base</td>
-          <td>Tutte le caratteristiche del corso <br>intemedio</td>
-        </tr>
-        <tr>
-          <td>Supporto post <br>corso</td>
-          <td>Rateazione in 12 mesi</td>
-          <td>Video registrazioni</td>
-        </tr>
-        <tr>
-          <td>Stage aziendale</td>
-          <td>Ripetizione del corso</td>
-          <td>Supporto 24h dedicato</td>
-        </tr>
-        </tbody>
-        </table>
-  </div>
-
-  </section>
-</main>
-
-
-
+  </main>
   <footer>
-    <section>
-      <div class="containerFlex3">
-        <div class="info-ft">
-          <p>Chi siamo</p>
-          <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
-        </div>
-        <div class="info-ft">
-          <p>Ti piace ciò che vedi?<br> Condividilo con i tuoi amici!</p>
-          <ul class="social">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></a></i></li>
-            <li><a href="https://it.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></a></i></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></a></i></li>
-          </ul>
-        </div>
-        <div class="info-ft">          
-            <p>Isciviti alla nostra newsletter</p>
-            <label for="mail" name="mail" id="mail" placeholeder="ciao"></label>
-            <p><a href="#" name="mail" id="mail" class="btn">Va bene!</a></p>
-        </div>
+    <div class="container-flex-fr">
+      <div class="info">
+        <h3>Chi siamo</h3>
+        <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
       </div>
-    </section>
-    <hr>
-    <div class="txt-footer">
-      <p>
-        &copy; 2021 Epicode Web Developer school <address> - Via Appia 1, 00100 Roma (RM) - </address> <p> Tel. 06-12345678</p>
-      </p>
+      <div class="info">
+        <h3>Ti piace ciò che vedi? <br> Condividilo con i tuoi amici!</h3>
+        <ul class="social">
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></a></i></li>
+          <li><a href="https://it.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></a></i></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></a></i></li>
+        </ul>
+      </div>
+      <div class="info">
+        <h3>Iscrivi alla nostra newsletter</h3>
+        <label for="btn"></label>
+        <input type="mail" name="" id="btn"> 
+        <a href="#" class="btn"> Va bene!</a>
+      </div>
     </div>
-
+    <div class="testo-fr">
+      <p>&copy;2021 Epicode Web Developer school - Via Appia 1, 00100 Roma &lpar;RM&rpar; - Tel. <a href="tell:0612345678">06-12345678</a></p>
+    </div>
   </footer>
+
 </body>
 
 </html>

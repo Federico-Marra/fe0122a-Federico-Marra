@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="">
-  <title>Home Page</title>  
+  <title>Home Page | Epicode</title>  
   <link rel="stylesheet" href="assets/css/all.css">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/stile.css">
@@ -17,121 +17,101 @@
 
 <body>
   <header>
-      <div id="logo">
-        <img src="/assets/images/logo.png" alt="Logo Epicode!">
-      </div>
-      <label for="menuMobile" class="iconMenu"><i class="fas fa-ellipsis-h"></i></label>
-      <input type="checkbox" id="menuMobile" name="menuMobile"  class="btnMenu" hidden>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="chi-siamo.html">Chi siamo</a></li>
-          <li><a href="contatti.html">Contatti</a></li>
-          <li><a href="#" class="btn">Registrati</a></li>
-        </ul>
-      </nav>
+    <img src="assets/images/logo.png" alt="Logo Epicode!" id="logo">
+    <label for="hamb" class="menu"><i class="fas fa-ellipsis-h"></i></label>
+    <input type="checkbox" id="hamb"  class="hamb" >
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chi-siamo.html">Chi siamo</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+        <li><a href="#" class="btn">Registrati</a></li>
+      </ul>
+    </nav>
   </header>
-
-  <main>
-    
+  <main>  
     <section id="banner">
-
-        <div class="txt-banner">
-          <h1>Diventa un developer EPICO</h1>
-          <p>Diventa un developer EPICO e ti troviamo noi il lavoro. Scommettiamo su di te: paghi metà corso, l'altra metà solo quando inizi a lavorare.</p>
-          <a href="contatti.html" class="btn btn-animation"> Chiedi info</a>
-        </di>
-    
+      <h1>Divneta un developer EPICO</h1>
+      <p class="p-banner">Diventa un developer EPICO e ti troviamo noi il lavoro. Scommettiamo su di te: paghi metà corso, l'altra metà solo quando inizi a lavorare.</p>
+      <a href="contatti.html" class="btn btn-animation">Chiedi info</a>
     </section>
-    
-    <section class="info">
-      <div class="txt-info">
+    <article>
+      <div class="testo-iniziale">
         <h2>Perché diventare un Developer?</h2>
-        <p>Non servono laurea e competenze specifiche, solo impegno. 
-          <p> Segui il corso online, dove vuoi tu.</p>
-           <p> Il lavoro che andrai a fare è veramente figo.</p>
-        </p>
+        <p>Non servono laurea e competenze specifiche, solo impegno.</p> 
+        <p>Segui il corso online, dove vuoi tu.</p>
+        <p>Il lavoro che andrai a fare è veramente figo.</p>
+        
       </div>
-
-      <div class="containerFlex">
-        <div class="box-info">
-          <p class="icn"><i class="far fa-comment-dots"></i></p>
+      <div class="container-flex">
+        <div class="box-cnt">
+          <i class="far fa-comment-dots"></i>
           <h3>Tutti ti cercheranno</h3>
           <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.</p>
         </div>
-        <div class="box-info">
-          <p class="icn"><i class="fas fa-map-marker-alt"></i></p>
+        <div class="box-cnt">
+          <i class="fas fa-map-marker-alt"></i>
           <h3>Potrai lavorare dove vuoi</h3>
           <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali, e le aziende lo sanno. Lavora da casa, in riva al mare o in montagna.</p>
         </div>
-        <div class="box-info">
-          <p class="icn"><i class="far fa-user-circle"></i></p>
+        <div class="box-cnt">
+          <i class="far fa-user-circle"></i>
           <h3>Azienda, Freelance o Startup</h3>
-          <p>Scegli più facilmente la carriera e il rapporto di lavoro che ti piace di più, in qualsiasi momento.</p>
-        </div>
+          <p>Segli più facilmente la carriera e il rapporto di lavoro che ti piace di più, in qualsiasi momento.</p>
       </div>
-
+    </div>
+    </article>
+    <section class="sfondo-blu">
+      <h2>Ma chi è il developer oggi?</h2>
+      <p>Se non lo sai te lo diciamo noi: il futuro è dei developer</p>
+      <a href="mailto:epicode@school" class="btn">Scrivici!</a>
     </section>
-
-    <section class="bck-darkblu">
-        <div class="txt-info">
-          <h2> Ma chi è il Developer oggi?</h2>
-          <p>Se non lo sai te lo diciamo noi: il futuro è dei developer</p>
-          <a href="mailto:epicode@school" class="btn"> Scrivici!</a>
-        </div>
-    </section>
-    <hr>
-    <section class="containerFlex2">
-      <div class="img">
-        <img src="/assets/images/notebook.jpg" alt="">
+    <aside>
+      <div>
+        <img src="assets/images/notebook.jpg" alt="Foto NoteBook" class="img">
       </div>
-      <div class="txt-img">
+      <div>
         <div class="titolo">
-          <p class="tit"><i class="far fa-laugh"></i> Chi sarai</p>
+          <i class="far fa-laugh"> Chi sarai</i>
           <p>Il creatore delle app che usi tutti i giorni</p>
         </div>
         <div class="titolo">
-          <p class="tit"><i class="far fa-grin-stars"></i> Chi diventerai</p>
+          <i class="far fa-grin-stars"> Chi diventerai</i>
           <p>Lo specialista padrone del suo tempo e spazio</p>
         </div>
         <div class="titolo">
-          <p class="tit"><i class="far fa-meh"></i> Chi non sarai</p>
+          <i class="far fa-meh"> Chi non sarai</i>
           <p>Il nerd incollato allo schermo</p>
         </div>
       </div>
-
-    </section>
-    
+    </aside>
   </main>
-
   <footer>
-    <section class="containerFlex3">
-        <div class="info-ft">
-          <p>Chi siamo</p>
-          <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
-        </div>
-        <div class="info-ft">
-          <p>Ti piace ciò che vedi?<br> Condividilo con i tuoi amici!</p>
-          <ul class="social">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></a></i></li>
-            <li><a href="https://it.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></a></i></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></a></i></li>
-          </ul>
-        </div>
-        <div class="info-ft">          
-            <p>Isciviti alla nostra newsletter</p>
-            <input type="mailto">
-            <a href="#" class="btn"> Va bene!</a>
-        </div>
-    </section>
-    <hr>
-    <div class="txt-footer">
-      <p>
-        &copy; 2021 Epicode Web Developer school <address> - Via Appia 1, 00100 Roma (RM) - </address> <p> Tel. 06-12345678</p>
-      </p>
+    <div class="container-flex-fr">
+      <div class="info">
+        <h3>Chi siamo</h3>
+        <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
+      </div>
+      <div class="info">
+        <h3>Ti piace ciò che vedi? <br> Condividilo con i tuoi amici!</h3>
+        <ul class="social">
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></a></i></li>
+          <li><a href="https://it.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></a></i></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></a></i></li>
+        </ul>
+      </div>
+      <div class="info">
+        <h3>Iscrivi alla nostra newsletter</h3>
+        <label for="btn"></label>
+        <input type="text" name="" id="btn"> 
+        <a href="#" class="btn"> Va bene!</a>
+      </div>
     </div>
-
+    <div class="testo-fr">
+      <p>&copy;2021 Epicode Web Developer school - Via Appia 1, 00100 Roma &lpar;RM&rpar; - Tel. <a href="tell:0612345678">06-12345678</a></p>
+    </div>
   </footer>
+
 </body>
 
 </html>

@@ -5,21 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="">
-  <title></title>  
+  <title>Contatti | Epicode</title>  
   <link rel="stylesheet" href="assets/css/all.css">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/stile.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans&display=swap" rel="stylesheet"></head>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
 
 <body>
   <header>
-    <div id="logo">
-      <img src="/assets/images/logo.png" alt="Logo Epicode!">
-    </div>
-      <label for="menuMobile" class="iconMenu"><i class="fas fa-ellipsis-h"></i></label>
-      <input type="checkbox" id="menuMobile" name="menuMobile"  class="btnMenu" hidden>
+    <img src="/assets/images/logo.png" alt="Logo Epicode!" id="logo">
+    <label for="hamb" class="menu"><i class="fas fa-ellipsis-h"></i></label>
+    <input type="checkbox" id="hamb"  class="hamb" >
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -28,75 +27,36 @@
         <li><a href="#" class="btn">Registrati</a></li>
       </ul>
     </nav>
-</header>
-<main id="contatti-page">
-  <h1>Contatti</h1>
-  <div class="containerFlex2">
-    <div>
-      <section class="contact">
-        <form>
-          <p><input type="text" placeholder="Nome e cognome"></p>
-          <p><input type="mail" placeholder="Indirizzo vaildo nome@cassella.com"></p>
-          <p><textarea name="" id="" cols="22" rows="4" placeholder="Scrivi in breve il tuo messaggio"></textarea></p>
-        </form>
-        <a type="submit" class="btn invio">invia il messaggio</a>
-      </section>
-    </div>
+  </header>
+  <main>  
 
-    <div>
-      <section class="sede">
-        <h2>Sede formativa</h2>
-        <div class="info">
-          <address>Via Appia 1</address>
-          <p>00100 Roma (RM)</p>
-        </div>
-
+  </main>
+  <footer>
+    <div class="container-flex-fr">
       <div class="info">
-          <p><a href="mailto:info@epicode.school">info@epicode.school</a></p>
-          <p><a href="tell:0612345956">0612345956</a></p>
-        </div>
-      </section>
-
-      <section class="lavora-con-noi">
-        <h2>Lavora con noi</h2>
-        <div class="info">
-          <p>Per poterti candidare ad un ruolo da docente invia il tuo cv a <a
-              href="mailto:info@epicode.school">info@epicode.school</a> </p>
-        </div>
-      </section>  
-    </div>
-  </div>
-</main>
-<footer>
-  <section>
-    <div class="containerFlex3">
-      <div class="info-ft">
-        <p>Chi siamo</p>
+        <h3>Chi siamo</h3>
         <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
       </div>
-      <div class="info-ft">
-        <p>Ti piace ciò che vedi?<br> Condividilo con i tuoi amici!</p>
+      <div class="info">
+        <h3>Ti piace ciò che vedi? <br> Condividilo con i tuoi amici!</h3>
         <ul class="social">
           <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></a></i></li>
           <li><a href="https://it.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></a></i></li>
           <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></a></i></li>
         </ul>
       </div>
-      <div class="info-ft">          
-          <p>Isciviti alla nostra newsletter</p>
-          <label for="mail" name="mail" id="mail" placeholeder="ciao"></label>
-          <p><a href="#" name="mail" id="mail" class="btn">Va bene!</a></p>
+      <div class="info">
+        <h3>Iscrivi alla nostra newsletter</h3>
+        <label for="btn"></label>
+        <input type="mail" name="" id="btn"> 
+        <a href="#" class="btn"> Va bene!</a>
       </div>
     </div>
-  </section>
-  <hr>
-  <div class="txt-footer">
-    <p>
-      &copy; 2021 Epicode Web Developer school <address> - Via Appia 1, 00100 Roma (RM) - </address> <p> Tel. 06-12345678</p>
-    </p>
-  </div>
+    <div class="testo-fr">
+      <p>&copy;2021 Epicode Web Developer school - Via Appia 1, 00100 Roma &lpar;RM&rpar; - Tel. <a href="tell:0612345678">06-12345678</a></p>
+    </div>
+  </footer>
 
-</footer>
 </body>
 
 </html>
