@@ -167,7 +167,7 @@ a {
  /* FOOTER */
     footer {
         background-color: rgba(207, 205, 205, 0.2);
-        padding: 1.5em;
+        padding: 0em 1.5em;
     }
         .container-flex-fr {
             display:flex;
@@ -239,6 +239,46 @@ a {
                 font-size: 1em;
                 padding: 1em 3.5em;
             }
+        /* SECTION | CHISIAMO-PAGE */
+    section {
+        padding: 0 1.6em;
+        line-height: 1.5em;
+    }
+        /* ASIDE | CHISIAMO-PAGE */
+    .chisiamo figure img {
+        width: 85%;
+    }
+    .chisiamo figure {
+        padding-bottom: 2em;
+    }
+    .chisiamo figure fieldset {
+        padding: 1.5em 1em ;
+    }
+        /* TABELLA */
+    table {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;    
+        margin-right: 1em;   
+        margin-bottom: 2em; 
+    }
+     th, td {
+         padding:.5em 0;
+     }
+    caption {
+        padding: .5em;
+        font-weight: bold;
+    }
+    thead {
+        background-color: hsl(209deg 27% 51%);
+        color: white;
+        font-weight: bold;
+    }
+    tbody tr:nth-child(odd){
+        background-color: hsl(211deg 30% 86%);
+    }
+    
+
 }
 @media screen and (min-width: 768px){
     /* HEADER | NAV-BAR */
@@ -285,9 +325,31 @@ a {
     .sfondo-blu p {
         font-size: 1.2em;
     }
+    /* MAIN | CHISIAMO-PAGE */
+    main section {
+        font-size: 1.3em;
+        margin-bottom: 1em;
+    }
+    figure img {
+        height: 55%;
+        width: 100%;
+    }
+    .chisiamo {
+        flex-direction: row;
+        font-size: 1.2em;
+    }
+    .tableFlex {
+        font-size: 2em;
+        font-weight: lighter;
+    }
+        th {
+            padding: .8em;
+        }
+    
     /* MAIN | ASIDE */
     aside {
         display: flex;
+        line-height: 1.5em;
     }
         aside div:nth-child(2) {
             padding-top: 2em;
@@ -348,7 +410,21 @@ a {
         #banner p {
             font-size: 0.8em;
         }
-        
+    /* SECTION | CHISIAMO-PAGE */
+   .chisiamo {
+        margin: 5em 15em;
+        margin-bottom: 5em;
+    }
+        .chisiamo figure {
+            height: 50%;
+            line-height: 1.5em;
+        }
+    /* TABELLA */
+    .tableFlex {
+        margin: 0 10em;
+        font-size: 2em;
+        padding: 0 5em;
+    }
     /* MAIN | ARTICLE */
     .testo-iniziale {
         font-size: 2em;
@@ -403,7 +479,7 @@ a {
             }
     /* FOOTER | CONTATTI-PAGE */
     .testo-fr {
-        margin-bottom: 7em;
+        margin-bottom: 0em;
     }
     /* FOOTER */
     .container-flex-fr {
