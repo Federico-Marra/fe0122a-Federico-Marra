@@ -306,9 +306,9 @@ a {
     }
     /* BANNER */
     #banner {
-        height: 100%;
         background-position:center;
-        padding: 5em 10em;
+        padding: 0 2.4em;
+        padding-bottom: 2em;
     }
     /* MAIN | ARTICLE */
     .testo-iniziale h2 {
@@ -406,13 +406,28 @@ a {
         font-size: 1.5em;
     }
     /* BANNER */
+    .txt-banner {
+        text-shadow: 1.5px 1.5px 1.5px black ;
+    }
+    h1 {
+        font-size: 5em;
+        line-height: 1.2em; 
+    }
+    .p-banner {
+        padding-top: .5em;
+        padding-bottom: 1em;
+        font-size: 1.1em;
+        line-height: 1.45em;
+    }
     #banner {
         font-size: 2em;
-        padding-left: 15em;
-        padding-bottom: 2.5em;
+        height: 35vh;
+        padding-top: 1em;
+        padding-bottom: .1em;
     }
         #banner p {
-            font-size: 0.8em;
+            font-size: 1em;
+            margin-bottom: 1em;
         }
     /* SECTION | CHISIAMO-PAGE */
    .chisiamo {
