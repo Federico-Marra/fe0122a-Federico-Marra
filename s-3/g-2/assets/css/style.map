@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/_header.scss",
+		"../sass/_sidebar.scss"
+	],
+	"sourcesContent": [
+		"body {\r\n    font-family: 'Montserrat', sans-serif;\r\n}\r\n@import 'header.scss';\r\n\r\n@import 'sidebar.scss';\r\n\r\nfooter{\r\n    border: 3px solid black;\r\n}",
+		"$padding-nav: 15px;\r\n$margin-header: 15px;\r\n$font-header: 24px;\r\n\r\nheader {\r\n    background-color: antiquewhite;\r\n    margin: $margin-header;\r\n    nav {\r\n        text-align: center;\r\n        font-size: $font-header;\r\n        padding: $padding-nav;\r\n        li{\r\n            list-style: none;\r\n            display: inline-block;\r\n            margin-right: $margin-header;\r\n            a{\r\n                display: inline-block;\r\n                border: 1px solid whitesmoke;\r\n                border-radius: 25px;\r\n                padding: $padding-nav;\r\n                text-decoration: none;\r\n                text-transform: uppercase;\r\n                color: rgba(255, 68, 0, 0.432);\r\n                transition: transform .8s;\r\n                transition-timing-function: ease-out;\r\n                &:hover{\r\n                    transform: scale(1.35, 1.35);\r\n                    background-color: whitesmoke;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}",
+		"\r\n.containerFlex {\r\n    display: flex;\r\n    flex-direction: row;\r\n    margin: $margin-header;\r\n    aside {\r\n        background: linear-gradient(orange, yellow);\r\n        \r\n        ul {\r\n            display: flex;\r\n            flex-direction: column;\r\n            width: 10vw;\r\n            right: 10px;\r\n            list-style: none;\r\n            padding: $padding-nav;\r\n            \r\n        }\r\n    }\r\n\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,wBAAwB;CACxC;;;ACED,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,YAAY;EAC9B,MAAM,EALM,IAAI;CA+BnB;;;AA5BD,AAGI,MAHE,CAGF,GAAG,CAAC;EACA,UAAU,EAAE,MAAM;EAClB,SAAS,EAPH,IAAI;EAQV,OAAO,EAVD,IAAI;CA+Bb;;;AA3BL,AAOQ,MAPF,CAGF,GAAG,CAIC,EAAE,CAAA;EACE,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,YAAY;EACrB,YAAY,EAbR,IAAI;CA6BX;;;AA1BT,AAWY,MAXN,CAGF,GAAG,CAIC,EAAE,CAIE,CAAC,CAAA;EACG,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,oBAAoB;EAC5B,aAAa,EAAE,IAAI;EACnB,OAAO,EAnBT,IAAI;EAoBF,eAAe,EAAE,IAAI;EACrB,cAAc,EAAE,SAAS;EACzB,KAAK,EAAE,uBAAuB;EAC9B,UAAU,EAAE,aAAa;EACzB,0BAA0B,EAAE,QAAQ;CAKvC;;;AAzBb,AAqBgB,MArBV,CAGF,GAAG,CAIC,EAAE,CAIE,CAAC,AAUI,MAAM,CAAA;EACH,SAAS,EAAE,iBAAiB;EAC5B,gBAAgB,EAAE,UAAU;CAC/B;;;AC3BjB,AAAA,cAAc,CAAC;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,MAAM,EDHM,IAAI;CCkBnB;;;AAlBD,AAII,cAJU,CAIV,KAAK,CAAC;EACF,UAAU,EAAE,+BAA+B;CAW9C;;;AAhBL,AAOQ,cAPM,CAIV,KAAK,CAGD,EAAE,CAAC;EACC,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;EAChB,OAAO,EDdL,IAAI;CCgBT;;;AFTT,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,eAAe;CAC1B"
+}

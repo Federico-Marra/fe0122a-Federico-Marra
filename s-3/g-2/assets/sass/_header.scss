@@ -1,0 +1,33 @@
+$padding-nav: 15px;
+$margin-header: 15px;
+$font-header: 24px;
+
+header {
+    background-color: antiquewhite;
+    margin: $margin-header;
+    nav {
+        text-align: center;
+        font-size: $font-header;
+        padding: $padding-nav;
+        li{
+            list-style: none;
+            display: inline-block;
+            margin-right: $margin-header;
+            a{
+                display: inline-block;
+                border: 1px solid whitesmoke;
+                border-radius: 25px;
+                padding: $padding-nav;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: rgba(255, 68, 0, 0.432);
+                transition: transform .8s;
+                transition-timing-function: ease-out;
+                &:hover{
+                    transform: scale(1.35, 1.35);
+                    background-color: whitesmoke;
+                }
+            }
+        }
+    }
+}

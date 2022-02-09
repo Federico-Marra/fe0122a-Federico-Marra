@@ -1,0 +1,24 @@
+@import 'variabili.scss';
+
+.showcase-content {
+    div{
+        .btn-primary, .btn-secondary{
+            display: inline-block;
+            text-decoration: none;
+            color: $colore-bottone;
+            font-size: $grandezza-font-a;
+            margin: $contenuti-margin;
+            padding: $contenuti-padding;
+            background: $sfondo-bottoni;
+            border-radius: $bordo-hover;
+            border: 1px solid black;
+            transition: transform .5s;
+            transition-timing-function: ease-out;
+                &:hover{
+                    color:$colore-hover;
+                    background: $sfondo-hover;
+                    transform: scale(1.35,1.35);    
+                }
+        }
+    }
+}

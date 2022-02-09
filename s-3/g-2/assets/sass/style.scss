@@ -1,0 +1,10 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+@import 'header.scss';
+
+@import 'sidebar.scss';
+
+footer{
+    border: 3px solid black;
+}

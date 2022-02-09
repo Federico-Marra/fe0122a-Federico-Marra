@@ -1,0 +1,56 @@
+@import 'variabili.scss';
+@import 'bottone.scss';
+
+body {
+    background-image: url(/img/sfondo.png);
+    .showcase {  
+            margin: $main-margin;
+            text-align: center;
+        .container{
+            .logo, h1 {
+                font-size: $grandezza-font-titolo;
+                color:$colore-titolo;
+                text-shadow: $ombreggiatura-titolo
+                
+            }
+            nav {
+                ul{
+                    list-style: none;
+                 
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        font-weight: bold;
+                        font-size: $grandezza-font-a;
+                        margin-right: 2em;
+                        padding: $contenuti-padding;
+                        transition: transform .8s;
+                        transition-timing-function: ease-out;        
+                        &:hover{
+                            color:$colore-hover;
+                            border-radius: $bordo-hover;
+                            background: $sfondo-hover;
+                            transform: scale(1.3);
+                        }
+                    }        
+                }
+            }
+        }
+        .showcase-content {
+            div {
+                .my-1{
+                    font-size: $grandezza-font-para;
+                    color: $colore-para;
+                    text-shadow: $ombreggiatura-para;
+                }
+            }    
+            img {
+                margin: $contenuti-margin;
+                padding: $contenuti-padding;
+                width: 50%;
+                height: 50%;
+            }
+        
+        }
+    }
+}

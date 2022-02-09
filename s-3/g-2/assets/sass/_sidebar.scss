@@ -1,0 +1,26 @@
+
+.containerFlex {
+    display: flex;
+    flex-direction: row;
+    margin: $margin-header;
+    aside {
+        background: linear-gradient(orange, yellow);
+        
+        ul {
+            display: flex;
+            flex-direction: column;
+            width: 10vw;
+            right: 10px;
+            list-style: none;
+            padding: $padding-nav;
+            
+        }
+    }
+
+}
+
+
+
+
+
+
