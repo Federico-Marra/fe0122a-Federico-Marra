@@ -1,0 +1,77 @@
+hr {
+  display: none; }
+
+body {
+  background-image: url("../img/auto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 0px 0px 17px black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.primopiano {
+  text-align: center;
+  width: auto;
+  padding: 50px; }
+  .primopiano #offerta h3 {
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 0px 0px 17px black; }
+  .primopiano #offerta #prezzo {
+    font-size: 50px;
+    color: orangered; }
+  .primopiano #offerta .button {
+    padding: 0 1.4em;
+    border: 0;
+    border-radius: 5px;
+    background-color: #b29720;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 30px #f8f8f8; }
+    .primopiano #offerta .button:hover {
+      background-color: orangered;
+      color: white; }
+
+.bi-whatsapp, .bi-twitter, .bi-instagram {
+  font-size: 1.4em;
+  margin-left: .35em; }
+
+.pubblicita {
+  background-color: rgba(133, 186, 221, 0.521);
+  border-radius: 50%;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.partners {
+  display: block;
+  text-align: center; }
+
+.carousel-inner .carousel-item .profilo {
+  background-color: #ffffff52;
+  border-radius: 100%;
+  width: 100px; }
+
+.carousel-inner .carousel-item p {
+  color: #fc7c7c;
+  text-shadow: 0 0 20px #f19100; }
+
+.testimonianze {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .testimonianze .testimoni {
+    width: 300px;
+    padding: 20px;
+    margin: 10px; }
+
+footer {
+  margin-top: 1em; }
+  footer .m-4 {
+    background-color: red; }
