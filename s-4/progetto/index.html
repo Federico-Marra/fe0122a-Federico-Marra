@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La mia calcolatrice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="containerMain">
+        <div class="risultato">
+            <input type="text" name="display" id="operazioni" readonly="readonly" class="display">
+        </div>
+        <div class="contenuto">
+            <div class="container">
+                <button id="7" onclick="n(this.id)" class="tasto">7</button>
+                <button id="8" onclick="n(this.id)" class="tasto">8</button>
+                <button id="9" onclick="n(this.id)" class="tasto">9</button>
+                <button id="/" onclick="n(this.id)" class="tasto">/</button>
+            </div>
+            <div class="container">
+                <button id="4" onclick="n(this.id)" class="tasto">4</button>
+                <button id="5" onclick="n(this.id)" class="tasto">5</button>
+                <button id="6" onclick="n(this.id)" class="tasto">6</button>
+                <button id="*" onclick="n(this.id)" class="tasto">X</button>
+            </div>
+            <div class="container">
+                <button id="1" onclick="n(this.id)" class="tasto">1</button>
+                <button id="2" onclick="n(this.id)" class="tasto">2</button>
+                <button id="3" onclick="n(this.id)" class="tasto">3</button>
+                <button id="-" onclick="n(this.id)" class="tasto">-</button>
+            </div>
+            <div class="container">
+                <button  onclick="cancella()" class="tasto">C</button>
+                <button id="0" onclick="n(this.id)" class="tasto">0</button>
+                <button id="." onclick="n(this.id)" class="tasto">.</button>
+                <button id="+" onclick="n(this.id)" class="tasto">+</button>
+            </div>
+            <div class="container">
+                <button onclick="operazione()" class="uguale tasto">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/calc.js"></script>
+        
+</body>
+
+</html>

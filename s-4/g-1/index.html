@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 id="colore">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+
+    <button onclick="changeColor()">Clica per cambiare in rosso</button>
+    <button onclick="changeColor1()">Clica per tornare al nero</button>
+
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolore earum est ipsam distinctio
+        necessitatibus aspernatur porro tenetur aut commodi, fugiat quibusdam, dolorem blanditiis. Aliquam repudiandae
+        quis dolores numquam corporis?
+        Consectetur incidunt possimus aspernatur nulla id minima deserunt culpa ad nobis quae ut, cumque, dolorum
+        dolorem modi facere obcaecati deleniti asperiores accusantium alias esse iure expedita? Alias soluta molestiae
+        magnam!</p>
+    <button onclick="changeText()">Clica per tornare al nero</button>
+
+    <script>
+        function changeText() {
+            document.getElementById('para').innerHTML = 'il testo è stato cambiato';
+        }
+
+        var nome = 'Federico ';
+        var cognome = 'Marra';
+        console.log(nome + cognome);
+    </script>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

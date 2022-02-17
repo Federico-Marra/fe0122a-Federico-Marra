@@ -1,0 +1,41 @@
+#containerMain {
+    margin: 50px 50px;
+    background: linear-gradient(0deg, rgba(218,140,70,1) 0%, rgba(185,125,184,1) 56%, rgba(227,219,77,1) 100%);
+    padding: 5.5%;
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 3px solid black;
+    box-shadow: 10px 7px 101px 0px rgba(0,0,0,1);
+
+}
+button{
+    margin: 2px;
+    padding: 15px;
+    font-size: 25px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: transform .1s;
+        &:active{
+            background-color: #a1a1a1;
+            transform: scale(.8,.8);    
+        }
+}
+
+.display {
+    background: rgb(156, 177, 196);
+    color: black;
+    font-size: 24pt;
+    border: #175c97 solid 2px;
+    margin: 25px 2px;
+    width: 335px;
+    height: 40px;   
+    border-radius: 15px;         
+}
+.uguale {
+    margin: 25px 2px;
+    width: 344px;
+    border-radius: 10px;
+}
