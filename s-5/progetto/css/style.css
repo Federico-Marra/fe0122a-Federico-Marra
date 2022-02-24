@@ -1,0 +1,45 @@
+body{
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bottone{
+    transition: transform .1s;
+}
+    #bottone:active{
+        transform: scale(.8,.8);
+    }
+#lista{
+    list-style: none;
+    margin: 1em 2.3em;
+    cursor: pointer;
+    line-height: 1.3em;
+    padding: .3em;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+    #lista li:active, #lista li:hover{
+        text-decoration: line-through;
+        color: #a1a1a1;
+    }
+.navbar{
+    background: linear-gradient(90deg, #241f00 25%, rgba(175,60,159,1) 51%, rgba(255,0,0,0.7413559173669468) 100%);
+}
+    .navbar-brand{
+        padding: 2em;
+    }
+    .input-group{
+        max-width: 75%;
+        padding: 1.4em;
+        margin-top: 1em;
+    }
+
+.btn, .form-control{
+    border: 1px solid black;
+}
+.btn{
+    background-color: grey;
+    color: black;
+}
