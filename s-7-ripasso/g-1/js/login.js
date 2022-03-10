@@ -13,7 +13,9 @@ let bottone = document.querySelector("button")
 bottone.addEventListener("click", function (evento) {
 
     evento.preventDefault();
-//il metodo seguente va a sostituire tutti i cicli forEach inseriti precedentemente!
+
+    //il metodo seguente va a sostituire tutti i cicli forEach inseriti precedentemente!
+    
     let utenteTrovato = arrayUtenti.find(user => user.email == inputMail.value && user.password == inputPass.value)
     if(utenteTrovato != undefined){
 

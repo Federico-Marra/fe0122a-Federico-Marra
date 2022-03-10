@@ -1,0 +1,11 @@
+#utenti, #container{
+    margin: 1.8em;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.text-center{
+    position: relative;
+    top: 36px;
+    font-size: 50px;
+    
+}
