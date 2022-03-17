@@ -1,0 +1,55 @@
+#container{
+    margin: 2em;
+    padding: 1.3em;
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    position: relative;
+}
+.container2{
+    margin-top: .5em;
+    padding: 1em;
+    border: 1px solid rgba(2, 2, 2, 0.3);
+    border-radius: 5px;
+}
+#reddAnLord{
+    margin-top: 1em;
+    position: relative;
+    left: 2em;
+    padding: .5em;
+}
+.container2 input, .container2 label{
+    display: inline-block;
+    margin-left: 5em;
+    padding: .5em;
+
+}
+
+#inps, #irpef, #reddAnNet{
+    margin-top: .4em;
+}
+
+#inps{
+    display: inline-block;
+    position: relative;
+    left: 6.85em;
+}
+#irpef{
+    position: relative;
+    left: 6.2em;
+}
+#reddAnNet{
+    position:relative;
+    left: 2.1em;
+}
+#codredd{
+    max-width: 100%;
+}
+.btn{
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    padding: .5em;
+    border-radius: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div class="container2">
+
+            <select name="codredd" id="codredd" disabled>
+
+                <option>Scegli!</option>
+
+                <option class="cod-40">Industrie alimentari e delle bevande</option>
+                <option class="cod-40">Commercio all’ingrosso e al dettaglio</option>
+                <option class="cod-40">Commercio ambulante di prodotti alimentari e bevande</option>
+                <option class="cod-54">Commercio ambulante di altri prodotti</option>
+                <option class="cod-86">Costruzioni e attività immobiliari</option>
+                <option class="cod-62">Intermediari del commercio</option>
+                <option class="cod-40">Attività dei servizi di alloggio e di ristorazione</option>
+                <option class="cod-78">Attività professionali, scientifiche, tecniche, sanitarie, di istruzione, servizi
+                    finanziari ed assicurativi</option>
+                <option class="cod-67">Altre attività economiche</option>
+
+            </select>
+
+            <label for="reddAnLord">Reddito Annuo Lordo</label>
+            <input type="number" name="reddAnLord" id="reddAnLord" placeholder="inserisci il tuo reddito lordo">
+
+        </div>
+
+        <div class="container2">
+
+            <label for="codredd-inpt">Coefficiente di redditività</label>
+            <input type="number" name="codredd-inpt" id="codredd-inpt" disabled>
+
+            <label for="inps">Tasse INPS</label>
+            <input type="number" name="inps" id="inps" readonly>
+
+            <label for="irpef">Tasse IRPEF</label>
+            <input type="number" name="irpef" id="irpef" readonly>
+
+            <label for="reddAnNet">Reddito Annuo Netto</label>
+            <input type="number" name="reddAnNet" id="reddAnNet" readonly>
+
+        </div>
+
+        <button class="btn"> Calcola!</button>
+
+    </div>
+
+    <p></p>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
