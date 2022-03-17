@@ -55,8 +55,6 @@ let pantaloni = new Capi(6, 1234, 'autunno', 'pantalone', 10, 'militare', 11, 13
 let cargo = new Capi(6, 1234, 'primavera', 'pantalone', 3, 'nero', 12, 14.5, 'in arrivo!', 5);
 let maglione = new Capi(6, 1234, 'inverno', 'maglione', 2, 'viola', 11, 13.5, 'in negozio', 50);
 
-let div = document.createElement('div') as HTMLElement;
-div;
 console.log(pantaloni);
 console.log('Lo sconto totale sarà di:' + ' ' +pantaloni.getSaldoCapo().toFixed(2) + '€');
 console.log('Il costo in totale sarà di: ' + ' ' +pantaloni.getAcquistoCapo().toFixed(2) + '€');
