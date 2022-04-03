@@ -1,0 +1,28 @@
+<div class="mt-5 container">
+  <app-favoriti></app-favoriti>
+  <div class="row" *ngIf="fotoInArrivo; else loading">
+    <div class="col-6 mb-3" *ngFor="let foto of fotoInArrivo; let i = index">
+      <div class="card h-100">
+        <img [src]="foto.thumbnailUrl" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title text-center">{{ foto.title }}</h5>
+          <div class="d-flex justify-content-between justify-items-center">
+            <a class="btn " (click)="cancella(foto.id, i)">
+              🗑</a
+            >
+            <a class="btn " (click)="aggiungiFavoriti()"> ❤️</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <!-- in questo modo crea uno spinner di caricamento che funziona finche non vengono caricate TUTTE le immagini-->
+  <div class="container d-flex justify-content-center">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading..</span>
+    </div>
+  </div>
+</ng-template>
